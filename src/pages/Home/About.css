@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Dancing+Script:wght@400..700&family=Niconne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap');
+
+.Abt-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem; 
+    min-height: 60vh;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+.abt-tex-bx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.abt-textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+min-height: 60vh;
+margin-left: 2rem;
+height: 50vh;
+width: 50vh;
+background-color: #ad9171;
+
+}
+
+.abt-title{
+    font-size: 3rem;
+    font-family: 'Antonio',sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    color: #573111;
+}
+.abt-para{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-top: 3rem;
+    font-weight: 300;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family:'poppins',Sans-serif;
+}
+.abt-txt{
+    font-size: 4rem;
+    text-align: center;
+    color: #424530;
+    font-weight: 800;
+    font-family: 'Dancing script',monospace;
+}
+.abt-txt1{
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+    font-family:'poppins',Sans-serif;
+    color: #424530;
+}
+.abt-para1{
+    font-size: 2rem;
+    
+    margin-top: 3rem;
+    font-weight: 300;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family:'poppins',Sans-serif;
+}
