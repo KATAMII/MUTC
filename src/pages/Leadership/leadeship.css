@@ -1,98 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Dancing+Script:wght@400..700&family=Niconne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap');
-.bannerSection{
-    height: 30vh;
-    background-color: #E09132;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    gap: 3rem;
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Dancing+Script:wght@400..700&family=Niconne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap");
+.bannerSection {
+  height: 30vh;
+  background-color: #e09132;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
 }
-.Ourleaders{
-    font-size: 4rem;
-    font-family:'Antonio',sans-serif;
+.Ourleaders {
+  font-size: 4rem;
+  font-family: "Antonio", sans-serif;
 }
-.qualified{
-    font-size: 2rem;
-    letter-spacing: 1.6;
+.qualified {
+  font-size: 2rem;
+  letter-spacing: 1.6;
 }
-.Leaders-section{
-    max-width: 1100px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
-    justify-items: center;
-    margin: 3rem auto;
-    row-gap: 5rem;
-    padding: 1rem;
+.Leaders-section {
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  justify-items: center;
+  margin: 3rem auto;
+  row-gap: 5rem;
+  padding: 1rem;
+  transform: translatey(-80px);
 }
-.leader{
-    width: 30rem;
-   background-color: rgb(248, 247, 247);
-    border-radius: 4rem;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.04);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.04);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.04);
-line-height: 1rem;
+.leader {
+  width: 30rem;
+  background-color: #424530;
+  border-radius: 4rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.04);
+  line-height: 1rem;
 }
-.leader-image{
-    height: 30rem;
-
+.leader-image {
+  height: 30rem;
+  border-radius: 2rem;
 }
-.leader-image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    display: block;
-    padding: 4rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-   
+.leader-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  padding: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-radius: 5%;
 }
-.leader-social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
+.leader-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  transition: all 0.5s;
+  margin-bottom: 1rem;
 }
-.leader-social svg{
-    width: 2rem;
-    height: 2rem;
-    fill: #E09132;
-    text-align: center;
+.leader-social:hover {
+  transform: scale(1.1);
 }
-.leader-info{
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    background-color: #efedea;
+.leader-social svg {
+  width: 2rem;
+  height: 2rem;
+  fill: #e09132;
+  text-align: center;
 }
-.leader-info h3{
-    text-align: center;
-    text-transform: uppercase;
-    margin-block: 1.5rem;
-    font-size: 2rem;
-    font-family: 'Antonio',sans-serif;
-    text-align: center;
-    margin-top:1rem;
-    color: #573111;
-    text-align: center;
+.leader-info {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: #ffefcd;
 }
-.leader-field{
-    text-transform: uppercase;
-    letter-spacing: 1.6px;
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #573111;
-    font-weight: 900;
+.leader-info h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-block: 1.5rem;
+  font-size: 2rem;
+  font-family: "Antonio", sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+  color: #573111;
+  text-align: center;
 }
-.leader-bio{
-    text-align: center;
-    line-height: 1.7;
-    letter-spacing: 1.6px;
-    font-weight: 500;
-    font-size: 1.5rem;
+.leader-field {
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #573111;
+  font-weight: 900;
+}
+.leader-bio {
+  text-align: center;
+  line-height: 1.7;
+  letter-spacing: 1.6px;
+  font-weight: 500;
+  font-size: 1.5rem;
 }

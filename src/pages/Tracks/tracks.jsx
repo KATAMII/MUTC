@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Tracks() {
   return (
     <div>
       <h1>tracts</h1>
     </div>
-  )
+  );
 }
 
-export default Tracks
+export default Tracks;
