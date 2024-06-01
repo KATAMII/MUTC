@@ -20,7 +20,7 @@ const Leader = ({
         <img src={image} alt="leader" />
       </div>
       <div className="leader-info">
-        <h3>Dr.{fullName}</h3>
+        <h3>{fullName}</h3>
         <p className="leader-field">{Field}</p>
         <p className="leader-bio">{bio}</p>
         <div className="leader-social">
