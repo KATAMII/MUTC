@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import About from './about'
 import Testimonials from './Testimonials'
+import Footer from '../../components/Footer'
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       < Hero/>
       < About/>
       < Testimonials/>
+      < Footer/>
     </section>
   )
 }
