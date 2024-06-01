@@ -104,3 +104,4 @@ const leaders=[
         bio:"I am ambitious,confident,patient and pays attention to details."
     },
 ]
+export default leaders

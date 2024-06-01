@@ -1,12 +1,17 @@
 import React from 'react'
 import Leader from './leader'
-import Ndiaimg from "../../assets/Dr Ndia.jpg"
-import './leadership.css'
+
+import "./leadeship.css"
+import  leaders from "../../data/leaders"
+
 function leadership() {
   return (
     <section className='Leaders-section'>
-       <Leader image={Ndiaimg} fullName="Dr Ndia" twitterurl="X.com" fburl="facebook.com"igurl="instagram.com"lnurl="linkedin.com"
-       Field="Patron"bio="I am ambitious,confident,patient and pays attention to details."/>
+      {
+        leaders.map((currentDoctor,i)=><Leader key={i} image={currentDoctor.Image} twitterurl={currentDoctor.twitterurl}
+        fburl={currentDoctor.fburl} lnurl={currentDoctor.linkedinurl} igurl={currentDoctor.igurl}
+        fullName={currentDoctor.fullName} Field={currentDoctor.field} bio={currentDoctor.bio}/>)
+      }
     </section>
   )
 }
