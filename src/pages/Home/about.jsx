@@ -7,7 +7,7 @@ function About() {
     <div className='Abt-section'>
         <h1 className='abt-title'>About us</h1>
         <div className="abt-tex-bx">
-            <div className='abt-textbox'>
+            <div className='abt-textbox' id='misisssion'>
                 <h1 className='abt-txt'>Our Mission</h1>
                 <p className='abt-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, debitis! Pariatur delectus aperiam ad suscipit accusamus iusto accusantium doloremque non?</p>
                 
