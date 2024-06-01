@@ -20,6 +20,16 @@ import { FaAppStoreIos } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
 import { FaJava } from "react-icons/fa6";
 import { GrAppsRounded } from "react-icons/gr";
+import Cloud from "../../assets/cloud.jpg"
+import powerimg from "../../assets/power.jpeg"
+import { TbCloudComputing } from "react-icons/tb";
+import { FaAws } from "react-icons/fa6";
+import { SiGooglecloud } from "react-icons/si";
+import { SiMicrosoftazure } from "react-icons/si";
+import { SiPowerapps } from "react-icons/si";
+import { SiPowerautomate } from "react-icons/si";
+import { SiChatbot } from "react-icons/si";
+import { SiMicrosoftteams } from "react-icons/si";
 
 
 function Tracks() {
@@ -145,7 +155,7 @@ function Tracks() {
               <div className="tracPara">
                 <p className="para">
                   {" "}
-                  <IoLogoAndroid  />   Android and I
+                  <IoLogoAndroid  />   Android and IOS
                 </p>
                 <p className="para">
                   {" "}
@@ -169,28 +179,28 @@ function Tracks() {
           </div>
           <div className="Tracks-description">
             <div className="trackimg">
-              <img src={appimg } alt="cyber" />
+              <img src={Cloud} alt="cyber" />
             </div>
             <div className="tracRight">
               <div className="icon">
-                <FaAppStoreIos/>
+                <TbCloudComputing/>
               </div>
               <div className="tracPara">
                 <p className="para">
                   {" "}
-                  <IoLogoAndroid  />   Android and I
+                  <FaAws />   AWS
                 </p>
                 <p className="para">
                   {" "}
-                  <FaJava/>
-                      Java, Kotlin, Swift & Dart
+                  <SiGooglecloud/>
+                      Google Cloud
                 </p>
                 <p className="para">
                   {" "}
-                  <GrAppsRounded />
-                  user Friendly Apps
+                  <SiMicrosoftazure  />
+                  Microsoft Azure
                 </p>
-                <p className="para"> You will be able to test and deploy mobile apps ready to deliver high performance.
+                <p className="para"> You will be able to understand how to design ,deploy and manage secure cloud infrastracture..
                 </p>
               </div>
             </div>
@@ -198,32 +208,32 @@ function Tracks() {
         </div>
         <div className="tracks1">
           <div className="Tracks-title">
-            <h3 className="title">Mobile Apps Development</h3>
+            <h3 className="title">Power Platform</h3>
           </div>
           <div className="Tracks-description">
             <div className="trackimg">
-              <img src={appimg } alt="cyber" />
+              <img src={powerimg } alt="cyber" />
             </div>
             <div className="tracRight">
               <div className="icon">
-                <FaAppStoreIos/>
+                <SiPowerapps/>
               </div>
               <div className="tracPara">
                 <p className="para">
                   {" "}
-                  <IoLogoAndroid  />   Android and I
+                  <SiPowerautomate  />   Power Automate
                 </p>
                 <p className="para">
                   {" "}
-                  <FaJava/>
-                      Java, Kotlin, Swift & Dart
+                  <SiChatbot/>
+                      chatbots built with minimal code.
                 </p>
                 <p className="para">
                   {" "}
-                  <GrAppsRounded />
-                  user Friendly Apps
+                  <SiMicrosoftteams />
+                  Microsoft teams
                 </p>
-                <p className="para"> You will be able to test and deploy mobile apps ready to deliver high performance.
+                <p className="para"> You will be proficient in developing integrated solutions using the power platforms. .
                 </p>
               </div>
             </div>
