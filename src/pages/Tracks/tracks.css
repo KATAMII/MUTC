@@ -26,6 +26,7 @@
     gap: 2.1rem;
     margin-left: 8rem;
     margin-top: 3rem;
+    flex-wrap: wrap;
     
 }
  
@@ -107,12 +108,40 @@ border-radius: 5px;
     height: 2rem;
     fill: #e09132;
 }
+@media screen and (max-width:88.7em){
+    .registerimgsection{
+        display: none;
+    }
+    .registersection{
+        margin-left: 25rem;
+       width: 100%;
+    }
+  }
+@media screen and (max-width:78.7em){
+   .tracks1{
+    margin-left: 0;
+   }
+   .register-names button{
+    background-color: #ebad66;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    margin-right: 2rem;
+    width: 10rem;
+}
+.registersection{
+    margin-left: 2rem;
+   width: 100%;
+}
+  }
 
 .register{
     display: flex;
     margin-top: 8rem;
     gap: 5rem;
     margin-left: 2rem;
+    
     
 }
 .registerimgsection , .registersection{
@@ -134,7 +163,11 @@ border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    min-width: 60vh;
     border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .register-title{
     font-size: 3rem;
