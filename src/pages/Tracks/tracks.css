@@ -35,7 +35,18 @@
     .tracks{
         margin-left: 15rem;
     }
-
+    .register{
+        width: 100%;
+    }
+    .registerimgsection{
+        margin-left: 30rem;
+        width: 70vh;
+        height:60vh;
+    }
+    .registerform{
+        
+    }
+    
 
   }
   
