@@ -16,13 +16,11 @@
   color: white;
   gap: 2rem;
 }
-@media screen and (max-width:56.7em){
-  .hero-container{
+@media screen and (max-width: 56.7em) {
+  .hero-container {
     width: 110%;
-  } 
+  }
 }
-
-
 
 .hero-content {
   display: flex;
@@ -39,7 +37,7 @@
 .heropara {
   font-size: 3rem;
   text-align: center;
-  
+
   line-height: 3rem;
   text-align: center;
   font-family: "poppins", Sans-serif;
