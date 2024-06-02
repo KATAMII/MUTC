@@ -62,8 +62,9 @@
 @media screen and (max-width:28.7em){
   .navbar{
     flex-direction: column;
-    height: 35vh;
+    height: 31vh;
   }
+
   
 }
 }

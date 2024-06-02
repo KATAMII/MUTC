@@ -28,6 +28,17 @@
     margin-top: 3rem;
     
 }
+ @media screen and (max-width:86.4em){
+    .bannerSection{
+        width: 110%;
+    }
+    .tracks{
+        margin-left: 15rem;
+    }
+
+
+  }
+  
 .tracks1{
     display: flex;
     flex-direction: column;
@@ -35,6 +46,7 @@
     align-items: center;
     background-color: #A5BE74; 
     width: 90vh;
+    max-width: 537px;
     padding: 1px auto;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.33);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.33);
@@ -56,8 +68,7 @@ border-radius: 5px;
 }
 .trackimg{
     width: 25rem;
-    height: 30rem;
-   
+    height: 30rem; 
     padding: 0.5rem;
     margin-right: 1rem;
 }
@@ -112,6 +123,7 @@ border-radius: 5px;
     margin-top: 8rem;
     gap: 5rem;
     margin-left: 2rem;
+    flex-wrap: wrap;
 }
 .registerimgsection , .registersection{
     width: 50%;
