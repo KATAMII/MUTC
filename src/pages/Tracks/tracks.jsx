@@ -30,6 +30,8 @@ import { SiPowerapps } from "react-icons/si";
 import { SiPowerautomate } from "react-icons/si";
 import { SiChatbot } from "react-icons/si";
 import { SiMicrosoftteams } from "react-icons/si";
+import techclubimg from "../../assets/tech club.png"
+
 
 
 function Tracks() {
@@ -238,6 +240,45 @@ function Tracks() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="register">
+        <div className="registerimgsection">
+          <img src={techclubimg} alt="register" />
+        </div>
+        <div className="registersection">
+           <h1 className="register-title">Register</h1>
+          <form className="registerform">
+            <div className="register-names">
+              <label htmlFor="fullNme">Full name</label>
+              <input type="text" id="fullNme" placeholder="Enter your full name"required/>
+            </div>
+            <div className="register-names">
+              <label htmlFor="email">Email</label>
+              <input type="Email" id="email" placeholder="Enter your Email" required/>
+            </div>
+            <div className="register-names">
+              <label htmlFor="course">Curent course</label>
+              <input type="text" id="course" placeholder="Enter your Current course"/>
+            </div>
+            <div className="register-names">
+              <label htmlFor="year">Year of study</label>
+              <input type="date" id="year" placeholder="Enter your Year of Study"/>
+            </div>
+            <div className="register-names">
+              <label htmlFor="tracs">Disired  Track</label>
+              <select name="" id="tracs">
+                <option value="Tracs">Select Tracs</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="UI/UX Design">UI/UX Design"</option>
+                <option value="Web development">Web development</option>
+                <option value="Mobile App Development">Mobile App Development</option>
+                <option value="Cloud Engineering">Cloud Engineering</option>
+                <option value="Power Platforms">Power Platforms</option>
+              </select>
+              <button type="submit">Register</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
