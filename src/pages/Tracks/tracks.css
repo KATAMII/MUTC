@@ -110,11 +110,10 @@ border-radius: 5px;
 
 .register{
     display: flex;
-    max-width: 1200px;
     margin-top: 8rem;
     gap: 5rem;
     margin-left: 2rem;
-    flex-wrap: wrap;
+    
 }
 .registerimgsection , .registersection{
     width: 50%;
