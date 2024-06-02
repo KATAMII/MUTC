@@ -251,19 +251,19 @@ function Tracks() {
           <form className="registerform">
             <div className="register-names">
               <label htmlFor="fullNme">Full name</label>
-              <input type="text" id="fullNme" placeholder="Enter your full name"required/>
+              <input type="text" id="fullNme" placeholder="full name"required/>
             </div>
             <div className="register-names">
               <label htmlFor="email">Email</label>
-              <input type="Email" id="email" placeholder="Enter your Email" required/>
+              <input type="Email" id="email" placeholder=" Email@example.com" required/>
             </div>
             <div className="register-names">
               <label htmlFor="course">Curent course</label>
-              <input type="text" id="course" placeholder="Enter your Current course"/>
+              <input type="text" id="course" placeholder="eg.Software Engineering"/>
             </div>
             <div className="register-names">
               <label htmlFor="year">Year of study</label>
-              <input type="date" id="year" placeholder="Enter your Year of Study"/>
+              <input type="text" id="year" placeholder="Year of Study"/>
             </div>
             <div className="register-names">
               <label htmlFor="tracs">Disired  Track</label>
