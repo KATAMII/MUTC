@@ -28,27 +28,7 @@
     margin-top: 3rem;
     
 }
- @media screen and (max-width:86.4em){
-    .bannerSection{
-        width: 110%;
-    }
-    .tracks{
-        margin-left: 15rem;
-    }
-    .register{
-        width: 100%;
-    }
-    .registerimgsection{
-        margin-left: 30rem;
-        width: 70vh;
-        height:60vh;
-    }
-    .registerform{
-        
-    }
-    
-
-  }
+ 
   
 .tracks1{
     display: flex;
