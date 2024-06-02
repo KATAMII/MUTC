@@ -8,12 +8,14 @@
   min-height: 60vh;
   margin-top: 3rem;
   flex-direction: column;
+ 
 }
 .abt-tex-bx {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  flex-wrap: wrap;
 }
 .abt-textbox {
   display: flex;
@@ -29,6 +31,12 @@
   width: 50vh;
   background-color: #ad9171;
   transition: all 0.5s;
+}
+@media screen and (max-width:35.25em){
+ .abt-textbox{
+  width: 40vh;
+ }
+  
 }
 .abt-textbox:hover {
   transform: scale(1.1);

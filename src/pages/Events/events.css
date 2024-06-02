@@ -30,6 +30,7 @@
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   max-height: 1600px;
   }
   .event{
     clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 98%, 23% 100%, 0 88%, 0 0);

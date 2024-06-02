@@ -8,6 +8,65 @@
   width: 100%;
   height: 10vh;
 }
+.media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 2rem;
+}
+@media screen and (max-width:56.7em){
+  .navbar{
+    flex-direction: column;
+    height: 15vh;
+  }
+  .media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    gap: 2rem;
+  }
+  
+}
+@media screen and (max-width:38.2em){
+  .header-navs a{
+    font-size: 1rem;
+  }
+  .header-nav-list{
+    flex-wrap: wrap;
+  }
+  .navbar{
+    height: 20vh;
+  }
+  .media{
+    flex-wrap: wrap;
+  }
+
+}
+@media screen and (max-width:34.1em){
+.header-nav-list{
+ flex-wrap: wrap;
+ gap: 1rem;
+ 
+}
+.media{
+  flex-wrap: nowrap;
+  font-size: 1rem;
+  margin-right: 2rem;
+}
+.headerbtn{
+  margin-bottom: 5rem;
+  
+}
+@media screen and (max-width:28.7em){
+  .navbar{
+    flex-direction: column;
+    height: 35vh;
+  }
+  
+}
+}
 .navbar__logo {
   font-size: 3rem;
   font-family: "Dancing script", monospace;

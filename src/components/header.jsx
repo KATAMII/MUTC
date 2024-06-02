@@ -7,6 +7,7 @@ function Header() {
   return (
     <div className="navbar">
       <div className="navbar__logo">MUT TECH CLUB</div>
+      <div className="media">
       <div className="navbar__menu">
         <ol className="header-nav-list">
           <li className="header-navs">
@@ -27,6 +28,7 @@ function Header() {
         <button className="btnn">
           <Link to="/">Register</Link>
         </button>
+      </div>
       </div>
     </div>
   );
