@@ -117,6 +117,21 @@ border-radius: 5px;
        width: 100%;
     }
   }
+@media screen and (max-width:41.7em){
+  .bannerSection{
+    width: 140%;
+  }
+}
+@media screen and (max-width:34.7em){
+  .bannerSection{
+    width: 160%;
+  }
+  }
+@media screen and (max-width:23.7em){
+  .bannerSection{
+    width: 200%;
+  }
+  }
 @media screen and (max-width:78.7em){
    .tracks1{
     margin-left: 0;
