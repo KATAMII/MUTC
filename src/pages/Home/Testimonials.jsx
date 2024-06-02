@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Testimonials.css";
 import lydiaImg from "../../assets/lydia.jpg";
-import miriumImg from "../../assets/mirium.jpg";
-import victorImg from "../../assets/victor.jpg";
+import miriumImg from "../../assets/mugure.jpg";
+import victorImg from "../../assets/Tanui.jpg";
 
 function Testimonials() {
   return (

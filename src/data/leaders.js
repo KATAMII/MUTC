@@ -1,13 +1,15 @@
 import Ndiaimg from "../assets/Dr Ndia.jpg";
-import Allan from "../assets/Allan Muhari.jpg";
+import Allan from "../assets/Alani.jpg";
 import Bridget from "../assets/Bridget.jpg";
 import Carolyne from "../assets/carolyne.jpg";
 import Ruth from "../assets/Ruth Mutisya.jpg";
-import Evyone from "../assets/Evyone.jpg";
-import John from "../assets/John Ndia.jpg";
-import Paul from "../assets/Paul.jpg";
+import Evyone from "../assets/Evyooone.jpg";
+import John from "../assets/D.jpg";
+import Paul from "../assets/Allan.jpg";
 import Stanely from "../assets/stanely.jpg";
 import Victory from "../assets/Victory.jpg";
+import Webster from "../assets/webster.jpg";
+import manase from "../assets/manase.jpg";
 
 const leaders = [
   {
@@ -54,7 +56,7 @@ const leaders = [
     bio: "I am ambitious,confident,patient and pays attention to details.",
   },
   {
-    Image: Ndiaimg,
+    Image: Webster,
     fullName: "Webster Ifedha",
     field: "Cyber Security Lead",
     twitterurl: "X.com",
@@ -64,7 +66,7 @@ const leaders = [
     bio: "I am ambitious,confident,patient and pays attention to details.",
   },
   {
-    Image: Ndiaimg,
+    Image: manase,
     fullName: "Manase Gunga",
     field: "UI/UX lead",
     twitterurl: "X.com",
